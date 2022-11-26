@@ -1,0 +1,76 @@
+
+.welcome {
+    width: 100% auto;
+    height: 65%;
+    background: url("../../imgs/home-background1.png") no-repeat;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    overflow: hidden;
+    padding: 5% 3%;
+}
+
+.welcome .intro-text {
+    animation: up-slide 2s;
+}
+
+.intro-text {
+    float: left;
+    display: inline;
+    margin-right: 0px;
+    margin: 0px;
+    width: 40%;
+    padding: 2%;
+    word-wrap: break-word;
+}
+
+@keyframes up-slide {
+    from {transform: translateX(-60%);}
+}
+
+.welcome .intro-text h1 {
+    border-bottom: 2px dashed dodgerblue;
+}
+
+.intro-text h4 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.intro-text h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-top: 5%;
+    width: 100% auto;
+    display: block;
+    overflow: hidden;
+    padding: 5% 3%;
+}
+
+.intro .intro-photo {
+    display: inline;
+    float: left;
+    overflow: visible;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.intro-wallpaper {
+    width: 100% auto;
+    height: 65%;
+    background: url("../../imgs/wallpaper-intro.png") no-repeat;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    overflow: hidden;
+    padding: 5% 3%;
+}

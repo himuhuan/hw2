@@ -1,0 +1,21 @@
+.generic-button-large {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    width: 40%;
+    height: max-content;
+    max-height: 10%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8% 5%;
+    margin-left: 0px;
+    border: none;
+    transition: all 800ms ease-out;
+    cursor: pointer;
+}
+
+.generic-button-large:hover {
+    background-color: #ff6b55;
+    border-radius: 20px;
+}

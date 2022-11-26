@@ -1,0 +1,19 @@
+body {
+    font-family: 
+    'Consolas', '等线', '微软雅黑',              /* Windows */
+    'Helvetica', 'STHeiti',                    /* Mac */
+    'Noto Sans SC';                           /* Other */
+
+    background-color: #ffffff;
+}
+
+.placeholder {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.copyright-text {
+    color: gray;
+    font-size: 0.95em !important;
+    font-weight: 200;
+}

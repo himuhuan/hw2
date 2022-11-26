@@ -1,0 +1,65 @@
+* {
+    margin: auto;
+}
+
+.main-nav {
+    display: block;
+    padding: 0;
+    height: 20%;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.main-nav ul {
+    margin: 0;
+    list-style-type: none;
+    border-color: black;
+    overflow: hidden;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3)
+}
+
+.main-nav ul li {
+    display: block;
+    float: left;
+    padding: 0px 5px;
+}
+
+.main-nav .nav-button {
+    display: block;
+    float: left;
+    padding: 1px;
+}
+
+.main-nav .active {
+    border-bottom: solid dodgerblue 2px;
+}
+
+.main-nav ul li a {
+    display: block;
+    color: black;
+    border-radius: 2px;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    transition: border-bottom 200ms linear,
+                background 200ms linear;
+}
+
+.main-nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.main-nav ul .special-nav-button {
+    float: right;
+}
+
+.main-nav ul .special-nav-button a {
+    text-decoration: underline 2px dodgerblue;
+}
+
+.main-nav ul .special-nav-button a:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    border: none;
+}
