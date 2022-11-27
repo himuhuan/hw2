@@ -1,0 +1,99 @@
+{
+    "Lua.telemetry.enable": true,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.fontFamily": "'Source Code Pro', 'Consolas-With-Yahei', 'Consolas','mononoki'",
+    "terminal.integrated.fontSize": 16,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'Consolas', 'Consolas-with-Yahei', 'JetBrainsMono NF', 'Fira Code', '等线', 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--background-index",
+        "-j=12",
+        "--query-driver=/usr/bin/clang++",
+        "--clang-tidy",
+        "--clang-tidy-checks=performance-*,bugprone-*",
+        "--all-scopes-completion",
+        "--header-insertion=never",
+        "--completion-style=detailed",
+        "--pch-storage=memory",
+        "--fallback-style=\"{BasedOnStyle: LLVM, IndentWidth: 4}\""
+    ],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            // 函数参数
+            "parameter": {
+                "fontStyle": "italic"
+            },
+            // 类或者结构体
+            "class": {
+                "fontStyle": "italic"
+            },
+            "enumMember": {
+                "fontStyle": "bold"
+            },
+            "macro": {
+                "fontStyle": "bold"
+            },
+            "namespace": {
+                "fontStyle": "italic"
+            },
+            "*.readonly": {
+                "fontStyle": "bold"
+            },
+            "*.global": {
+                "fontStyle": "underline"
+            },
+            "variable.readonly": {
+                // "foreground": "#8f5daf",
+                "fontStyle": "bold"
+            },
+            "*.static": {
+                "fontStyle": "underline"
+            },
+            "property": {
+                "fontStyle": "italic"
+            }
+        }
+    },
+    "explorer.confirmDelete": false,
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "git.autorefresh": false,
+    "search.followSymlinks": false,
+    "cmake.configureOnOpen": true,
+    "alignment.operatorPadding": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.clang_format_style": "Visual Stuio",
+    "clang-format.fallbackStyle": "Google",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, NamespaceIndentation: All, FixNamespaceComments: false }",
+    "editor.detectIndentation": false,
+    "cmake.allowCommentsInPresetsFile": true,
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=C:\\dev\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+    ],
+    "settingsSync.ignoredSettings": [
+        "cmake.configureArgs"
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "explorer.sortOrder": "type",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "workbench.colorTheme": "Atom One Light"
+}

@@ -1,5 +1,11 @@
+.generic-button-group {
+    width: 100% auto;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+}
+
 .generic-button-large {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     text-align: center;
     font-size: 1.2em;
@@ -8,14 +14,20 @@
     max-height: 10%;
     background-color: dodgerblue;
     color: white;
-    padding: 8% 5%;
+    padding: 5% 2%;
     margin-left: 0px;
+    margin-right: 5%;
+    margin-bottom: 2rem;
     border: none;
     transition: all 800ms ease-out;
     cursor: pointer;
 }
 
+.button-border-radius {
+    border-radius: 15px;
+}
+
 .generic-button-large:hover {
-    background-color: #ff6b55;
+    background-color: #ff6c55eb;
     border-radius: 20px;
 }

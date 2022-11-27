@@ -1,0 +1,31 @@
+.himu-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.himu-table table, th, tr, td {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.himu-table td {
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.himu-table th {
+    background-color: #EFF3F5;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.himu-table tr:nth-child(even) {
+    background-color: white;
+}
+
+.himu-table tr:nth-child(odd) {
+    background-color: #f0f0f06c;
+}
+

@@ -1,0 +1,49 @@
+.content {
+    width: 70% auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 40rem;
+    display: block;
+    overflow: hidden;
+    padding: 5% 3%;
+}
+
+.content-text {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    padding: 2%;
+    word-wrap: break-word;
+}
+
+.content-text h4 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.content-text h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.content-text p {
+    font-size: 1.2em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.content .content-tips {
+    width: 100% auto;
+    border-radius: 5px;
+    height: max-content;
+    padding: 2.5%;
+    background-color: #efd9fd;
+    font-size: medium;
+}
+
+.content .content-tips p {
+    font-size: 1rem;
+    margin: 10px 1rem;
+}

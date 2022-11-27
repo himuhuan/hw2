@@ -8,12 +8,16 @@ body {
 }
 
 .placeholder {
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 25% !important;
+    margin-bottom: 25% !important;
 }
 
 .copyright-text {
     color: gray;
     font-size: 0.95em !important;
     font-weight: 200;
+}
+
+.center {
+    text-align: center;
 }

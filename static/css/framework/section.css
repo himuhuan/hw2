@@ -1,0 +1,52 @@
+.himu-section {
+    width: 100% auto;
+    height: 40rem;
+    display: block;
+
+    overflow: hidden;
+    padding: 5% 3%;
+}
+
+.section-photo {
+    display: inline;
+    float: left;
+    overflow: visible;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.himu-section-text {
+    float: left;
+    display: inline;
+    margin-right: 0px;
+    margin: 0px;
+    width: 40%;
+    padding: 2%;
+    word-wrap: break-word;
+}
+
+.himu-section-text h4 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.himu-section-text h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.himu-section-text p {
+    font-size: 1.2em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.animated-text {
+    animation: left-slide 2s;
+}
+
+@keyframes left-slide {
+    from {transform: translateX(-60%);}
+}

@@ -10,6 +10,7 @@
     position: sticky;
     top: 0px;
     background-color: white;
+    background-attachment: scroll;
 }
 
 .main-nav ul {
@@ -17,7 +18,7 @@
     list-style-type: none;
     border-color: black;
     overflow: hidden;
-    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 2px 2px -2px rgb(0, 0, 0)
 }
 
 .main-nav ul li {

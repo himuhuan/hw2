@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Himu 的 C++ 开发资源避难所 </title>
+
+    <link type="text/css" rel="stylesheet" href="../css/framework/main-nav.css">
+    <link type="text/css" rel="stylesheet" href="../css/layout/himu-light-theme.css">
+    <link type="text/css" rel="stylesheet" href="../css/layout/content.css">
+    <link type="text/css" rel="stylesheet" href="../css/framework/home.css">
+    <link type="text/css" rel="stylesheet" href="../css/framework/generic-button.css">
+    <link type="text/css" rel="stylesheet" href="../css/framework/footer.css">
+    <link type="text/css" rel="stylesheet" href="../css/framework/section.css">
+    <link type="text/css" rel="stylesheet" href="../css/framework/himu-table.css">
+</head>
+
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <div class="nav-button">
+                    <a href="../../index.html"> <i>HumoraNotSakura</i> 开发资源避难所 </a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-button active">
+                    <a href="./dev-home.html"> 开发工具 </a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-button">
+                    <a href="#"> 壁纸库 </a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-button">
+                    <a href="https://github.com/himuhuan"> Github 主页 </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="himu-section">
+        <div class="himu-section-text animated-text">
+            <h1> 一键下载 立即代码 </h1>
+            <p>
+                下载通用的配置文件以立即开始工作, 只需复制+简单配置即可立马进行高效率的开发,
+                结合现代LSP技术, 在 Vim/VSCode 上获得集成开发环境一般的丝滑体验
+            </p>
+            <div class="generic-button-group placeholder">
+                <a href="../resource/vimrc_file " download=".vimrc" class="generic-button-large button-border-radius">
+                    适用于 Vim/NeoVim 配置(仅限Linux) </a>
+                <a href="../resource/Settings.json" download="Settings.json"
+                    class="generic-button-large button-border-radius"> 适用于 VSCode 配置 (Windows/Linux通用) </a>
+            </div>
+        </div>
+        <div class="section-photo">
+            <img src="../imgs/dev-demo.gif" alt="Demo">
+        </div>
+    </div>
+    <hr>
+    <div class="content">
+        <div class="content-text">
+            <h1> 使用说明 </h1>
+            <div class="content-tips">
+                <b> &#9872; 注意: 本文档仅用于演示作业的表格 </b>
+                <p> 此页面可能需要进一步改进, 例如添加索引以支持侧边文档导航栏等工作. </p>
+                <p> 
+                    本文档仅用于演示, 具体使用请参见
+                    <a href="https://microsoft.github.io/language-server-protocol/"> 官方文档 </a> 
+                </p>
+            </div>
+            <br>
+            <h1> 选择 Language Server Protect (LSP) 的理由 </h1>
+            <table class="himu-table">
+                <caption class="center"> <h3>各个补全方案的对比</h3> </caption>
+                <th> 名称 </th>
+                <th> 补全效率 </th>
+                <th> 是否自动生成索引 </th>
+                <th> 外部环境依赖 </th>
+                <th> 本身占用体积 </th>
+
+                <tr>
+                    <td> IDE </td>
+                    <td> 高, 取决于 IDE </td>
+                    <td> 是 </td>
+                    <td> 否 </td>
+                    <td> 很大 </td>
+                </tr>
+
+                <tr>
+                    <td> 编辑器 + ctags 传统方案 </td>
+                    <td> 低 </td>
+                    <td> 否, 每次 make 后需要重新生成 </td>
+                    <td> 是 </td>
+                    <td> 小 </td>
+                </tr>
+                
+                <tr>
+                    <td> LSP </td>
+                    <td> 高 </td>
+                    <td> 是 </td>
+                    <td> 是, 通常依赖 Nodejs/C++ 后端 </td>
+                    <td> 小 </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer copyright-text">
+            <p> 本网站引用的图像或资源可能受到版权保护. </p>
+            <br>
+            <p> 浏览本网站说明已同意我们的<u>隐私声明和 Cookie</u> </p>
+            <p> 版权所有&copy; 2022 Himu &lt;mvp.liuhuan@gmail.com&gt;, 仅用于学习交流, 非盈利用途  </p>
+        </div>
+    </footer>
+</body>
+
+</html>
