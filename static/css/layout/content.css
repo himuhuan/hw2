@@ -34,13 +34,14 @@
     margin-bottom: 10px;
 }
 
-.content .content-tips {
+.content-tips {
     width: 100% auto;
     border-radius: 5px;
     height: max-content;
     padding: 2.5%;
     background-color: #efd9fd;
     font-size: medium;
+    margin-bottom: 1em;
 }
 
 .content .content-tips p {

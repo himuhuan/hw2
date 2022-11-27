@@ -1,5 +1,6 @@
 .generic-button-group {
     width: 100% auto;
+    height: max-content;
     margin-bottom: 2rem;
     word-wrap: break-word;
 }
@@ -10,8 +11,6 @@
     text-align: center;
     font-size: 1.2em;
     width: 40%;
-    height: max-content;
-    max-height: 10%;
     background-color: dodgerblue;
     color: white;
     padding: 5% 2%;
